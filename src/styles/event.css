@@ -1,0 +1,92 @@
+@media only screen and (max-width: 768px) {
+  body .eventvid iframe {
+    height: calc(var(--r4) * 6);
+  }
+}
+@media only screen and (max-width: 530px) {
+  body .eventmain {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  body .eventtxt,
+  body .eventvid {
+    width: 100%;
+  }
+  body .eventpics > div {
+    width: 45%;
+  }
+  body .eventvid iframe {
+    height: calc(var(--r4) * 8);
+  }
+}
+.eventcont > h1 {
+  width: 80%;
+  display: block;
+  font-size: var(--r3);
+  text-align: center;
+  color: #00395f;
+  margin: var(--r2) auto;
+  font-family: "Raleway", sans-serif;
+}
+.eventmain {
+  display: flex;
+  margin: 0 auto var(--r2) auto;
+  width: 90%;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.eventtxt {
+  width: 40%;
+}
+.eventtxt p {
+  display: block;
+  font-size: var(--r103);
+  text-align: left;
+  color: #00395f;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.eventvid {
+  width: 45%;
+}
+.eventslider {
+  width: 100%;
+}
+.eventintroanim {
+  /* height: calc(var(--r4) * 8); */
+  position: relative;
+  overflow: hidden;
+}
+.eventvid iframe {
+  border-radius: 3%;
+  width: 100%;
+  height: calc(var(--r4) * 5);
+}
+.eventpics {
+  display: block;
+  margin: 0 auto var(--r2) auto;
+  width: 90%;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.eventpics > div {
+  border: 1px solid #00395f;
+  border-radius: 5%;
+  width: 30%;
+  margin: 1%;
+  display: inline-flex;
+  padding: 0;
+  overflow: hidden;
+  height: fit-content;
+}
+.eventimg {
+  all: unset;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.2s all ease-in-out;
+}
+.eventimg:hover {
+  transform: scale(120%);
+  cursor: pointer;
+}

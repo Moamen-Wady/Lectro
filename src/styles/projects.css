@@ -1,0 +1,284 @@
+@media only screen and (max-width: 768px) {
+  body .projctscenteredsearch {
+    width: 90vw;
+  }
+  body .projectscategorycont div a p {
+    font-size: var(--r2);
+  }
+  body .projectssearchstart {
+    font-size: var(--r2);
+  }
+  body .projectssearchclosebutton {
+    top: 1%;
+  }
+  body .projectssearchaction {
+    font-size: var(--r2);
+    width: 50%;
+  }
+  body .projectssearchaction select {
+    font-size: var(--r2);
+  }
+  body .projectssearchinput {
+    font-size: var(--r2);
+  }
+  body .projectssearchresults h1 {
+    font-size: var(--r2);
+  }
+  body .projectssearchresults h2 {
+    font-size: var(--r2);
+  }
+  body .projectssearchresults h3 {
+    font-size: var(--r2);
+  }
+  body .projectssearchresults h4 {
+    font-size: var(--r2);
+  }
+}
+@media only screen and (min-width: 551px) and (max-width: 650px) {
+  body .projectssearchaction form {
+    padding: var(--r08) 0;
+  }
+  body .projectssearchaction form p {
+    display: block;
+    margin: var(--r2) auto;
+    text-align: center;
+  }
+  body .projectssearchaction form span {
+    margin-left: var(--r2);
+  }
+  body .projectssearchaction > span {
+    padding: var(--r08) 0;
+    display: block;
+    width: 100%;
+    margin: var(--r2) auto;
+  }
+  body .projectssearchaction > span p {
+    display: block;
+    margin: var(--r2) auto;
+    text-align: center;
+  }
+  body .projectssearchaction select {
+    display: block;
+    margin: auto;
+    width: auto;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 550px) {
+  body .projectssearchresults {
+    width: 90%;
+    max-height: 55%;
+  }
+  body .projectssearchaction {
+    width: 90%;
+    max-height: 45%;
+  }
+  body .projectscategorycont div {
+    width: 47%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .projectscategorycont div {
+    width: 100%;
+  }
+}
+.projectssearchstartcont {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+.projectssearchstart {
+  all: unset;
+  display: block;
+  background-color: #012060;
+  color: white;
+  font-size: var(--r103);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 3%;
+  padding: var(--r08);
+  margin: var(--r08);
+  margin-left: auto;
+  margin-right: 7.3%;
+  cursor: pointer;
+}
+.projectssearchstart:hover {
+  background-color: blue;
+}
+.projectssearchwindow {
+  display: block;
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100svw;
+  height: 100lvh;
+  background-color: rgb(1, 33, 96, 0.5);
+}
+.projectssearchclosebutton {
+  position: fixed;
+  top: 3%;
+  right: 3%;
+  width: 5svw;
+  height: 5svw;
+  filter: invert(1);
+  cursor: pointer;
+}
+.projctscenteredsearch {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70svw;
+  height: 80svh;
+  border: 2px solid black;
+  border-radius: 2%;
+  background-color: whitesmoke;
+  padding: var(--r1);
+}
+.projectssearchaction {
+  width: 40%;
+  font-size: var(--r102);
+  font-family: "Raleway", sans-serif;
+  color: #012060;
+  font-weight: bold;
+}
+.projectssearchaction form p {
+  display: inline-block;
+  margin-left: var(--r05);
+}
+.projectssearchaction form span {
+  display: inline-block;
+  margin-left: var(--r05);
+}
+.projectssearchaction > p {
+  display: inline-block;
+  margin-left: var(--r05);
+}
+.projectssearchaction > span {
+  display: inline-block;
+  margin-left: var(--r05);
+}
+.projectssearchaction > span p {
+  display: inline-block;
+  margin-left: 0;
+}
+.projectssearchaction select {
+  display: inline-block;
+  margin-left: var(--r05);
+  font-size: var(--r102);
+  font-family: "Raleway", sans-serif;
+  color: #012060;
+}
+.projectssearchinput {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: var(--r08);
+  font-size: var(--r103);
+  font-family: "Raleway", sans-serif;
+  color: #012060;
+}
+.projectssearchresults {
+  width: 50%;
+  height: 78svh;
+  overflow: scroll;
+  position: relative;
+}
+.projectssearchresults h4 {
+  margin: 0 auto;
+  font-size: var(--r104);
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #012060;
+  position: sticky;
+  top: -1%;
+  background-color: whitesmoke;
+  z-index: 300;
+  padding-bottom: var(--r05);
+  padding-top: var(--r08);
+}
+.projectssearchresults h1 {
+  font-size: var(--r104);
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #012060;
+}
+.projectssearchresults h2 {
+  font-size: var(--r103);
+  padding: var(--r05);
+  color: white;
+  text-transform: capitalize;
+  z-index: 26;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-top: 0;
+}
+.projectssearchresults h3 {
+  display: inline-block;
+  font-size: var(--r103);
+  padding: var(--r05);
+  color: white;
+  z-index: 26;
+  font-weight: bold;
+  background-color: #012060;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.projectssearchresults a {
+  display: block;
+  margin: auto;
+  margin-right: auto;
+  margin-bottom: var(--r05);
+  width: 90%;
+  background-color: rgb(0, 0, 255, 0.1);
+  border: 1px inset black;
+  border-radius: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  height: 33svh;
+}
+/*////////////////////////////
+//////////////////////////////////
+////////////////////////*/
+.projectscategorycont {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.projectscategorycont div {
+  width: 30%;
+  margin: var(--r08) 0;
+  border-radius: 4%;
+}
+.projectscategorycont div img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
+}
+.projectscategorycont div a {
+  border-radius: 4%;
+  text-decoration: none;
+}
+.projectscategorycont div a p {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: var(--r104);
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-color: #00395f;
+  padding: var(--r08) 0;
+}

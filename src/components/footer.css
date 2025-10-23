@@ -1,0 +1,131 @@
+@media only screen and (max-width: 768px) {
+  body .xcon {
+    flex-wrap: wrap;
+  }
+  body .portion:first-child {
+    width: 100%;
+  }
+  body .portion h1 {
+    font-size: var(--r3);
+  }
+  body .imx {
+    display: block;
+    width: 100%;
+  }
+  body .contact {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  body .contact > h1 {
+    display: block;
+    width: 30%;
+    margin: auto;
+  }
+  body .content {
+    display: block;
+    width: 60%;
+  }
+  body .content a {
+    font-size: var(--r2);
+    text-align: left;
+  }
+  body .content > p > img {
+    width: var(--r3);
+    height: var(--r3);
+    margin: var(--r1);
+  }
+  body .ful {
+    font-size: var(--r2);
+  }
+}
+@media only screen and (max-width: 530px) {
+  body .portion {
+    width: 50%;
+    text-align: left;
+  }
+}
+
+.content {
+  display: contents;
+}
+.ff {
+  background: #00395f;
+  border-top: 1px solid darkblue;
+  width: 100%;
+  margin: auto;
+}
+.xcon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: #00395f;
+  padding: var(--r1);
+}
+.portion > h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: var(--r2);
+  color: whitesmoke;
+}
+.portion {
+  display: inline-block;
+  width: 20%;
+  color: white;
+}
+.imx {
+  margin: 0;
+  width: 90%;
+  vertical-align: top;
+}
+.ful {
+  font-size: var(--r102);
+  display: inline-block;
+  overflow: hidden;
+  margin: auto;
+  z-index: 5000;
+  font-family: "El Messiri", sans-serif;
+  color: black;
+  text-indent: 0;
+  padding: 0;
+}
+.xl {
+  display: block;
+  padding: calc(var(--r05) * 0.5);
+}
+.ll {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+.xl .ll:hover {
+  color: #3f48cc;
+}
+.contact h1 {
+  font-size: var(--r2);
+  font-family: "El Messiri", sans-serif;
+}
+.content p {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  vertical-align: middle;
+  font-size: var(--r1);
+  color: white;
+  text-decoration: none;
+  font-family: "El Messiri", sans-serif;
+  margin-right: var(--r1);
+}
+.content a {
+  font-size: var(--r1);
+  color: white;
+  text-decoration: none;
+}
+.content > p > img {
+  width: var(--r105);
+  height: var(--r106);
+  margin: var(--r05);
+  display: inline-block;
+  vertical-align: middle;
+  filter: invert(1);
+}

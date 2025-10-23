@@ -1,0 +1,158 @@
+@media only screen and (max-width: 768px) {
+  body .productltcont .productimg {
+    width: 30%;
+  }
+  body .productltcont .producttxtcont {
+    width: 90%;
+    font-size: var(--r106);
+  }
+  body .productrtcont .productimg {
+    width: 30%;
+  }
+  body .productrtcont .producttxtcont {
+    width: 90%;
+    font-size: var(--r106);
+  }
+  body .producth1 {
+    font-size: var(--r3);
+  }
+  body .productrtcont strong,
+  .productltcont strong {
+    font-size: var(--r106);
+  }
+}
+@media only screen and (max-width: 550px) {
+  body .productltcont .productimg {
+    width: calc(var(--r5) * 3);
+    float: left;
+    margin: 2%;
+  }
+  body .productltcont .producttxtcont {
+    display: block;
+    width: 90%;
+    font-size: var(--r105);
+  }
+  body .productrtcont .productimg {
+    margin: 2%;
+    width: calc(var(--r5) * 3);
+    float: right;
+  }
+  body .productrtcont .producttxtcont {
+    display: block;
+    width: 90%;
+    height: max-content;
+    align-items: center;
+    font-size: var(--r105);
+  }
+  body .productltcont .producttxtcont span {
+    display: contents;
+  }
+  body .productrtcont .producttxtcont span {
+    display: contents;
+  }
+}
+/*
+@media only screen and (max-width: 400px) {
+  body .producth1 {
+    font-size: var(--r104);
+  }
+  body .productltcont .productimg {
+    width: 45%;
+    float: left;
+    margin: 2%;
+  }
+  body .productltcont .producttxtcont {
+    display: block;
+    width: 90%;
+  }
+  body .productrtcont .productimg {
+    margin: 2%;
+    width: 45%;
+    float: right;
+  }
+  body .productrtcont .producttxtcont {
+    display: block;
+    width: 90%;
+    height: max-content;
+    align-items: center;
+  }
+  body .productltcont .producttxtcont span {
+    display: contents;
+  }
+  body .productrtcont .producttxtcont span {
+    display: contents;
+  }
+} */
+.producth1 {
+  font-size: var(--r2);
+  margin: auto;
+  text-align: center;
+  color: #012060;
+  font-family: "Raleway", sans-serif;
+  position: relative;
+}
+.productltcont a,
+.productrtcont a {
+  display: contents;
+}
+.productltcont,
+.productrtcont {
+  margin: 0 auto var(--r2) auto;
+}
+.productltcont .productimg {
+  width: 25%;
+  height: max-content;
+  text-align: center;
+  object-fit: contain;
+}
+.productltcont .producttxtcont {
+  width: 88%;
+  display: flex;
+  margin: auto;
+  padding: 1%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: var(--r2);
+  margin-bottom: var(--r2);
+  height: max-content;
+  text-align: left;
+  color: #121212;
+  font-size: var(--r102);
+  font-family: "Raleway", sans-serif;
+}
+.productltcont .producttxtcont span {
+  display: block;
+  max-width: 60%;
+}
+.productrtcont .productimg {
+  width: 25%;
+  height: max-content;
+  text-align: center;
+  object-fit: contain;
+}
+.productrtcont .producttxtcont {
+  display: flex;
+  margin: auto;
+  width: 85%;
+  padding: 1%;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: var(--r2);
+  margin-bottom: var(--r2);
+  height: max-content;
+  text-align: left;
+  color: #121212;
+  font-size: var(--r102);
+  font-family: "Raleway", sans-serif;
+}
+.productrtcont .producttxtcont span {
+  display: block;
+  max-width: 60%;
+}
+.productrtcont strong,
+.productltcont strong {
+  font-family: "El Messiri", sans-serif;
+  font-size: var(--r103);
+  display: contents;
+}

@@ -1,0 +1,201 @@
+@media only screen and (min-width: 2001px) {
+  body .slide-image-head {
+    height: 41rem;
+  }
+  body .shade {
+    height: 41rem;
+  }
+}
+@media only screen and (max-width: 2000px) {
+  body .slide-image-head {
+    height: 36rem;
+  }
+  body .shade {
+    height: 36rem;
+  }
+}
+@media only screen and (max-width: 1670px) {
+  body .slide-image-head {
+    height: 33rem;
+  }
+  body .shade {
+    height: 33rem;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  body .slide-image-head {
+    height: 28rem;
+  }
+  body .shade {
+    height: 28rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  body .slide-image-head {
+    height: 25rem;
+  }
+  body .shade {
+    height: 25rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body .slide-image-head {
+    height: 19rem;
+  }
+  body .shade {
+    height: 19rem;
+  }
+}
+@media only screen and (max-width: 530px) {
+  body .slide-image-head {
+    height: 14rem;
+  }
+  body .shade {
+    height: 14rem;
+  }
+  body .leftp2 a {
+    margin-top: 5%;
+  }
+  body .leftp1 pre {
+    top: 65%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .slide-image-head {
+    height: 11.3rem;
+  }
+  body .shade {
+    height: 11.3rem;
+  }
+  body .btmportion {
+    width: 70%;
+    height: var(--r5);
+  }  
+}
+
+
+.banw {
+  position: relative;
+  z-index: 25;
+  width: 100%;
+  margin: 0 auto var(--r2) auto;
+}
+.slide-image-head {
+  width: 100%;
+}
+.btnbanner {
+  height: var(--r5);
+  width: calc(var(--r2) * 1.25);
+  background: rgb(0, 0, 0, 0.6);
+  z-index: 29;
+  border: 0;
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+}
+.bright {
+  right: 0.5%;
+}
+.bleft {
+  left: 0.5%;
+}
+.btnbanner > img {
+  height: var(--r2);
+  width: var(--r2);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: invert(1);
+}
+.btnbanner:hover {
+  background-color: black;
+}
+.shade {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  opacity: 0.6;
+}
+.btmportion {
+  width: 40%;
+  height: var(--r4);
+  z-index: 500;
+  position: relative;
+  bottom: var(--r2);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 2%;
+  margin: auto;
+}
+.leftp1 {
+  background: #00395f;
+  height: calc(var(--r4));
+  width: 62%;
+  z-index: 500;
+}
+.leftp1 div {
+  padding-top: 7.5%;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 66.6%;
+  margin: auto;
+  height: 45%;
+}
+.leftp1 pre {
+  font-size: var(--r106);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  display: block;
+  width: fit-content;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  animation-duration: 6s;
+  animation-name: t1;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.leftp2 {
+  background: #00395f;
+  height: calc(var(--r4));
+  width: 38%;
+  z-index: 500;
+}
+.leftp2 a {
+  display: block;
+  max-width: fit-content;
+  text-decoration: none;
+  text-align: center;
+  background: white;
+  border-radius: 5%;
+  color: #00395f;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: var(--r103);
+  padding: var(--r08);
+  margin-top: 2.5%;
+}
+.leftp2 a:hover {
+  background-color: rgb(6, 6, 75);
+  color: white;
+}
+@keyframes t1 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -250%;
+  }
+}

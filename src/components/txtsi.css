@@ -1,0 +1,192 @@
+@media only screen and (min-width: 2250px) {
+  body .find-box {
+    top: 0.45rem;
+    right: 0.45rem;
+  }
+}
+@media only screen and (max-width: 2249px) {
+  body .find-box {
+    top: 0.35rem;
+    right: 0.35rem;
+  }
+}
+@media only screen and (max-width: 1999px) {
+  body .find-box {
+    top: 0.3rem;
+    right: 0.3rem;
+  }
+}
+@media only screen and (max-width: 1670px) {
+  body .find-box {
+    top: 0.25rem;
+    right: 0.25rem;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  body .find-box {
+    top: 0.25rem;
+    right: 0.25rem;
+  }
+}
+@media only screen and (max-width: 1124px) {
+  body .find-box {
+    top: 0.25rem;
+    right: 0.25rem;
+  }
+}
+@media only screen and (max-width: 530px) {
+  body .find-input {
+    height: var(--r106);
+  }
+  body .find-box {
+    height: var(--r3);
+  }
+}
+@media only screen and (max-width: 450px) {
+  body .find-box {
+    top: 0.2rem;
+    right: 0.2rem;
+  }
+}
+.find-box {
+  top: 0.25rem;
+  right: 0.25rem;
+  direction: ltr;
+  position: absolute;
+  z-index: 3001;
+  height: calc(var(--r2));
+  display: flex;
+  align-items: center;
+  box-sizing: border-box !important;
+  padding: var(--r05);
+  visibility: visible;
+  background: #00395f;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+}
+
+.find-input {
+  height: var(--r101);
+  width: calc(var(--r5) * 2);
+  border: 1px solid #aaa;
+  background: #fff;
+  margin-right: var(--r05);
+  border-radius: 2px;
+  color: #000;
+}
+
+.find-matches {
+  font-size: var(--r1);
+  color: #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--r4);
+  overflow: hidden;
+  margin-right: calc(var(--r05) * 0.5);
+}
+
+.find-case {
+  font-size: var(--r1);
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+  color: #aaa;
+  padding: 0px 2px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  margin-right: calc(var(--r05) * 0.5);
+  display: flex;
+  align-items: center;
+}
+
+.find-back {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  height: var(--r102);
+  width: var(--r102);
+  border-radius: 2px;
+  overflow: hidden;
+  display: inline-block;
+  background: #fff;
+  border: 0px solid #fff;
+  margin: 0 2px;
+}
+
+.find-back:hover {
+  background: #f2f0f4;
+}
+
+.find-forward {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  height: var(--r102);
+  width: var(--r102);
+  border-radius: 2px;
+  overflow: hidden;
+  display: inline-block;
+  background: #fff;
+  border: 0px solid #fff;
+  margin: 0 2px;
+}
+
+.find-forward:hover {
+  background: #f2f0f4;
+}
+
+.find-close {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  height: var(--r102);
+  width: var(--r102);
+  overflow: hidden;
+  display: inline-block;
+  background: #fff;
+  border-radius: 2px;
+  margin: 0 2px;
+}
+
+.find-close img {
+  width: 80%;
+  transform: rotate(-90deg);
+  display: block;
+  margin: 10% auto;
+}
+
+.find-close:hover {
+  background: #f2f0f4;
+}
+.find-back img {
+  width: 50%;
+  transform: rotate(-90deg);
+  display: block;
+  margin: 20% auto;
+}
+.find-forward img {
+  width: 50%;
+  transform: rotate(90deg);
+  display: block;
+  margin: 20% auto;
+}
+.lock {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.unlock {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.onCase {
+  border-color: #f2f0f4 !important;
+  background-color: #f2f0f4 !important;
+}
+
+.offCase {
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
