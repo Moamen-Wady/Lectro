@@ -315,7 +315,7 @@ export default function Aboutus() {
             <p>
               <b>48</b> Years In This Industry
             </p>
-            <a href="https://drive.google.com/file/d/1WEkGKRO3ugP2PXWjVYx-f9uX7UokKP70/view?usp=sharing">Download Lectro Profile</a>
+            <a href="https://drive.usercontent.google.com/download?id=1WEkGKRO3ugP2PXWjVYx-f9uX7UokKP70&export=download&authuser=0">Download Lectro Profile</a>
           </div>
           <div className="aboutfactoryimg">
             <img loading="lazy" src="/factory.webp" alt="" />
