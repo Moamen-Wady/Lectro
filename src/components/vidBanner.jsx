@@ -22,7 +22,7 @@ export default function VidBanner() {
             //   <source src="/lectro.webm" type="video/mp4"></source>
             // </video>
                         <video autoPlay muted loop>
-              <source src="https://drive.google.com/file/d/1PsDD_wcxt4bcSWPFmFQo3RpsPrybNqVw/view?usp=drive_link" type="video/mp4"></source>
+              <source src="https://drive.google.com/file/d/1PsDD_wcxt4bcSWPFmFQo3RpsPrybNqVw/view?usp=drive_link" type="video/webm"></source>
             </video>
           )}
             </div>
