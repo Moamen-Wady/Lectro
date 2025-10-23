@@ -21,7 +21,9 @@ export default function VidBanner() {
             //the video is available on google drive
             //   <source src="/lectro.webm" type="video/mp4"></source>
             // </video>
-                        <iframe src="https://drive.google.com/file/d/1PsDD_wcxt4bcSWPFmFQo3RpsPrybNqVw/preview" allow="autoplay"></iframe>
+                        <video autoPlay muted loop>
+              <source src="https://github.com/Moamen-Wady/Lectrobar/blob/main/public/lectro.webm" type="video/mp4"></source>
+            </video>
           )}
             </div>
       </header>
