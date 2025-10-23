@@ -5,7 +5,7 @@
   body .vshade {
     height: 41rem;
   }
-  body .vvid video {
+  body .vvid iframe {
     height: 41rem;
   }
   body .vvid img {
@@ -19,7 +19,7 @@
   body .vshade {
     height: 36rem;
   }
-  body .vvid video {
+  body .vvid iframe {
     height: 36rem;
   }
   body .vvid img {
@@ -33,7 +33,7 @@
   body .vshade {
     height: 33rem;
   }
-  body .vvid video {
+  body .vvid iframe {
     height: 33rem;
   }
   body .vvid img {
@@ -47,7 +47,7 @@
   body .vshade {
     height: 28rem;
   }
-  body .vvid video {
+  body .vvid iframe {
     height: 28rem;
   }
   body .vvid img {
@@ -61,7 +61,7 @@
   body .vshade {
     height: 25rem;
   }
-  body .vvid video {
+  body .vvid iframe {
     height: 25rem;
   }
   body .vvid img {
@@ -75,7 +75,7 @@
   body .vshade {
     height: 19rem;
   }
-  body .vvid video {
+  body .vvid iframe {
     height: 19rem;
   }
   body .vvid img {
@@ -93,7 +93,7 @@
   body .vshade {
     height: 14rem;
   }
-  body .vvid video {
+  body .vvid iframe {
     height: 14rem;
   }
   body .vvid img {
@@ -107,7 +107,7 @@
   body .vshade {
     height: 11.3rem;
   }
-  body .vvid video {
+  body .vvid iframe {
     height: 11.3rem;
   }
   body .vvid img {
@@ -132,7 +132,7 @@
   position: relative;
   z-index: 28;
 }
-.vvid video {
+.vvid iframe {
   object-fit: cover;
   width: 100%;
   z-index: 27;
